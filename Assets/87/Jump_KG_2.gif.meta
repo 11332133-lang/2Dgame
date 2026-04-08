@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: 6833c17ba56f62245af7ebd014fc1646
+guid: 720ec66a11998fd488363e92db600d9d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8345753331616478382
-    second: Attack_KG_2_0
+      213: -7134453638355003615
+    second: Jump_KG_2_0
   - first:
-      213: -5515574048984974227
-    second: Attack_KG_2_1
+      213: 7803281734061422591
+    second: Jump_KG_2_1
   - first:
-      213: -3878741669849815595
-    second: Attack_KG_2_2
+      213: 8458637065299637371
+    second: Jump_KG_2_2
   - first:
-      213: -777060946598943158
-    second: Attack_KG_2_3
+      213: -8752113897201174074
+    second: Jump_KG_2_3
   - first:
-      213: -4728083257135438555
-    second: Attack_KG_2_4
+      213: 828671630536272562
+    second: Jump_KG_2_4
   - first:
-      213: -60248966097534883
-    second: Attack_KG_2_5
+      213: 6587891932400062364
+    second: Jump_KG_2_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -128,13 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Attack_KG_2_0
+      name: Jump_KG_2_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 24
         y: 0
-        width: 100
-        height: 64
+        width: 50
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,19 +143,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 25b87f5009ded2c80800000000000000
-      internalID: -8345753331616478382
+      spriteID: 1275b5347345dfc90800000000000000
+      internalID: -7134453638355003615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_KG_2_1
+      name: Jump_KG_2_1
       rect:
         serializedVersion: 2
-        x: 100
+        x: 124
         y: 0
-        width: 100
+        width: 52
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -165,19 +165,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d6c33ed00aeb473b0800000000000000
-      internalID: -5515574048984974227
+      spriteID: ff77601c463da4c60800000000000000
+      internalID: 7803281734061422591
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_KG_2_2
+      name: Jump_KG_2_2
       rect:
         serializedVersion: 2
-        x: 200
+        x: 225
         y: 0
-        width: 100
+        width: 51
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -187,19 +187,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5d5a8117001fb2ac0800000000000000
-      internalID: -3878741669849815595
+      spriteID: b743329589d136570800000000000000
+      internalID: 8458637065299637371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_KG_2_3
+      name: Jump_KG_2_3
       rect:
         serializedVersion: 2
-        x: 300
+        x: 325
         y: 0
-        width: 100
+        width: 51
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -209,20 +209,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a462425af235735f0800000000000000
-      internalID: -777060946598943158
+      spriteID: 6c9709bf7ce3a8680800000000000000
+      internalID: -8752113897201174074
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_KG_2_4
+      name: Jump_KG_2_4
       rect:
         serializedVersion: 2
-        x: 400
-        y: 0
-        width: 100
-        height: 64
+        x: 415
+        y: 2
+        width: 55
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,20 +231,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 52568fdf359726eb0800000000000000
-      internalID: -4728083257135438555
+      spriteID: 2baee8d1578008b00800000000000000
+      internalID: 828671630536272562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_KG_2_5
+      name: Jump_KG_2_5
       rect:
         serializedVersion: 2
-        x: 500
-        y: 0
-        width: 100
-        height: 64
+        x: 516
+        y: 1
+        width: 51
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,8 +253,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d500ca172e3f92ff0800000000000000
-      internalID: -60248966097534883
+      spriteID: c9f0e51fec4ec6b50800000000000000
+      internalID: 6587891932400062364
       vertices: []
       indices: 
       edges: []
@@ -263,7 +263,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f0c234a3596d197489b3ec96307dbd2f
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -271,16 +271,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":1.0},"gridSpriteSize":{"x":100.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      Attack_KG_2_0: -8345753331616478382
-      Attack_KG_2_1: -5515574048984974227
-      Attack_KG_2_2: -3878741669849815595
-      Attack_KG_2_3: -777060946598943158
-      Attack_KG_2_4: -4728083257135438555
-      Attack_KG_2_5: -60248966097534883
+      Jump_KG_2_0: -7134453638355003615
+      Jump_KG_2_1: 7803281734061422591
+      Jump_KG_2_2: 8458637065299637371
+      Jump_KG_2_3: -8752113897201174074
+      Jump_KG_2_4: 828671630536272562
+      Jump_KG_2_5: 6587891932400062364
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
